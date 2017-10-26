@@ -1,0 +1,3 @@
+Add try statements around various socket functions:
+    connect, in case the socket file lingers after the server exits
+    send, in case the server closes
